@@ -1,0 +1,149 @@
+.c-item {
+    height: 580px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.gallery-section {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gallery-title {
+    padding-top: 100px;
+}
+
+.contact-section {
+    margin-top: 100px;
+}
+
+.gallery {
+    transition: 0.3s;
+}
+
+.gallery:hover {
+    transform: scale(1.1);
+}
+
+.contact {
+    gap: 30px;
+}
+
+.left-form input {
+    border-radius: 3px;
+    border: 1px solid black;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    height: 35px;
+    width: 300px;
+}
+
+.right-form textarea {
+    border-radius: 3px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.send-contact {
+    text-align: center;
+}
+
+textarea:focus {
+    border: 2px solid orange;
+    outline: none;
+}
+
+.send-button {
+    border: 1px solid black;
+    text-align: center;
+    width: 300px;
+    height: 35px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.send-button:hover {
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+}
+
+.shop-section {
+    margin-top: 150px;
+}
+
+footer {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.medsos {
+    display: flex;
+    gap: 10px;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.brand i {
+    font-size: 18px;
+    color: gray;
+}
+
+.brand:hover, .brand:hover i {
+    background-color: orange;
+    color: white;
+}
+
+@media screen and (max-width: 992px) and (min-width: 300px) {
+    .about-img {
+        margin-top: 50px;
+    }
+
+    .g-item {
+        margin-top: 50px;
+    }
+
+    .shop-section {
+        gap: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 300px) {
+
+    .g-card {
+        width: 23rem;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left-form,
+    .right-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) and (min-width: 300px) {
+    .about-img img {
+        width: 300px;
+    }
+
+    .medsos {
+        gap: 0px;
+    }
+}
