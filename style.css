@@ -1,3 +1,8 @@
+nav {
+    padding-left: 110px; 
+    padding-right: 110px;
+}
+
 .c-item {
     height: 580px;
 }
@@ -135,6 +140,11 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    nav {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
